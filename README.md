@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📁 StoreIt – Cloud File Storage App
 
-## Getting Started
+**Drive Clone** is a cloud-based file storage application that emulates the core functionalities of Google Drive. Built with modern web technologies, it allows users to upload, manage, and access their files securely from anywhere.
 
-First, run the development server:
+🔗 **Live Demo:** [https://drive-clone-seven.vercel.app](https://drive-clone-seven.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **File Upload:** Upload files of various formats securely to the cloud.
+- **File Management:** Organize, view, and manage your uploaded files.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Secure Storage:** Files are stored securely using Appwrite's storage services.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+**Frontend:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- TypeScript
+- Tailwind CSS
+- ShadCN UI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Backend & Services:**
 
-## Deploy on Vercel
+- Appwrite (Cloud Storage)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Deployment:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Vercel
+
+---
+
+## 📸 Screenshots
+
+### File Management Dashboard
+
+![File Management](images/dashboard.png)
+
+---
+
+## 🧰 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+- Appwrite account for storage services
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Hitesh-s0lanki/drive-clone.git
+   cd drive-clone
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Set up environment variables:**
+
+   - Create a `.env.local` file in the root directory.
+   - Refer to `.env.example` for the required environment variables.
+
+4. **Run the development server:**
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+---
+
+## ☁️ Deployment
+
+The application is deployed on [Vercel](https://vercel.com), offering seamless integration with GitHub for continuous deployment. Every push to the `main` branch triggers an automatic deployment.
+
+---
+
+## 🔮 Future Enhancements
+
+- **User Authentication:** Implement secure user login and registration.
+- **Folder Management:** Allow users to create and manage folders.
+- **File Sharing:** Enable sharing of files with other users.
+- **Search Functionality:** Implement search to quickly find files.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes. For major changes, please open an issue first to discuss what you would like to change.
+
+---
